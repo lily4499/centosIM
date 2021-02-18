@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER Liliane
+MAINTAINER Liliane Konissi
 ENV container docker
 RUN yum -y update; yum clean all
 RUN yum -y install systemd; yum clean all; \
